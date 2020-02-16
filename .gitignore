@@ -1,5 +1,6 @@
-_build
-_esy
 *.merlin
-*.install
-_opam
+
+/.vscode
+
+/lib
+/node_modules
