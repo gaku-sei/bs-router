@@ -1,0 +1,19 @@
+{
+  "name": "bs-router",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:gaku-sei/routes.git",
+  "author": "Kevin COMBRIAT <kevin@sc0ville.com>",
+  "license": "BSD",
+  "scripts": {
+    "test": "jest",
+    "build": "bsb -make-world",
+    "examples:run": "node ./examples/Simple.bs.js && node ./examples/Doc1.bs.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@glennsl/bs-jest": "^0.4.9",
+    "bs-platform": "^7.1.1"
+  }
+}
